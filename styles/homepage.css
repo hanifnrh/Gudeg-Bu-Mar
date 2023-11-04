@@ -1,0 +1,93 @@
+.hero-section {
+    background-image: url(https://wowinfood.com/data/foto-berita/70130-gudeg.jpg);
+    padding: 100px;
+    height: 300px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-section > .heading > .top-heading {
+    padding: 1px 20px;
+    background-color: white;
+    border: #141414 3px solid;
+    color: #141414;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.hero-section > .heading > .bottom-heading {
+    padding: 1px 10px;
+    background-color: white;
+    border: #141414 3px solid;
+    color: #141414;
+    border-radius: 10px;
+    margin-top: 15px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+/* FEATURES SECTION STYLES */
+.features-section {
+    height: 400px;
+    /* background-image: url(/img/prism.png); */
+    background-color: white;
+    color: #141414;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Inclusive Sans', sans-serif;
+    border-top: #141414 3px solid;
+    border-bottom: #141414 3px solid;
+}
+
+.features-section > .columns-wrapper {
+    display: flex;
+    width: 1200px;
+    height: 300px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.features-section > .columns-wrapper > .column {
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+    border-bottom: 3px solid transparent;
+    transition: 0.5s;
+}
+
+.features-section > .columns-wrapper > .column:hover {
+    border-bottom: 3px solid white;
+}
+
+.features-section > .columns-wrapper > .column :nth-child(1) {
+    font-size: 3em;
+    margin: 10px;
+}
+
+.features-section > .columns-wrapper > .column :nth-child(2) {
+    font-size: 1.2em;
+    font-weight: bold;
+    transition: 0.5s;
+    margin: auto;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.features-section > .columns-wrapper > .column :nth-child(2):hover {
+    font-size: 1.7em;
+    font-weight: bold;
+    transition: 0.5s;
+}
+
+.features-section > .columns-wrapper > .column :nth-child(3) {
+    margin: 5px;
+}
+

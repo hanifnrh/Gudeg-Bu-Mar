@@ -1,0 +1,78 @@
+.form > .form-group {
+    margin-top: 30px;
+}
+
+.form input {
+    font-size: 1.2rem;
+    font-family: inherit;
+    color: inherit;
+    padding: 1.2rem 2rem;
+    border-radius: 2px;
+    border: none;
+    border-bottom: 3px solid black;
+    width: 100%;
+    display: block;
+    transition: all 0.3s;
+}
+
+.form input:focus{
+    outline: none;
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.1);
+    border-bottom: 3px solid #db9a34;
+}
+
+.form textarea:focus{
+    outline: none;
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.1);
+    border: 3px solid #db9a34;
+}
+
+.form textarea {
+    width: 100%;
+    margin-top: 20px;
+    height: 220px;
+    border-radius: 20px;
+    border: 3px solid black;
+    font-size: 1.2rem;
+    font-family: inherit;
+    color: black;
+    padding: 1.2rem 2rem;
+    transition: all 0.3s;
+}
+
+/* .form input::-webkit-input-placeholder, .form textarea::-webkit-input-placeholder {
+    color: black;
+} */
+
+.form input:focus::-webkit-input-placeholder, .form textarea:focus::-webkit-input-placeholder {
+    color: transparent;
+}
+
+.form label {
+    font-size: 1.2rem;
+    font-family: inherit;
+    font-weight: 700;
+    margin-left: 2rem;
+    margin-top: 0.7rem;
+    display: block;
+    transition: all 0.3s;
+    color: #db9a34;
+    visibility: hidden;
+    opacity: 0;
+}
+
+.form input:focus + label{
+    visibility: visible;
+    opacity: 1;
+    transform: translateY(1rem);
+}
+
+.form #messagelabel {
+    text-align: center;
+}
+
+.form textarea:focus + label{
+    visibility: visible;
+    opacity: 1;
+    transform: translateY(1rem);
+}

@@ -1,0 +1,105 @@
+body {
+    margin: 0px;
+}
+
+.navigation-wrapper {
+    height: 190px;
+    /* background-image: url(/img/prism.png); */
+    background-color:white;
+    font-family: 'Inclusive Sans', sans-serif;
+    font-size: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px 100px;
+    border-bottom: black solid 3px;
+
+}
+/* LEFT COLUMN */
+.navigation-wrapper > .left-column {
+    display: flex;
+    align-items: center;
+    width: 300px;
+}
+
+.navigation-wrapper > .left-column > .icon a{
+    color: #141414;
+    transition: 0.5s;
+}
+
+.navigation-wrapper > .left-column > .icon a:hover{
+    color: #db9a34;
+    font-size: 2em;
+}
+
+.navigation-wrapper > .left-column > .contact-wrapper {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 5px;
+    color: #141414;
+}
+
+.navigation-wrapper > .left-column > .contact-wrapper > .name {
+    font-weight: bold;
+}
+
+.navigation-wrapper > .left-column > .icon {
+    margin-right: 15px;
+}
+
+.navigation-wrapper > .left-column > .icon i {
+    font-size: 2em;
+}
+
+/* CENTER COLUMN */
+.navigation-wrapper > .center-column {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 10px;
+    width: 500px;
+}
+
+.navigation-wrapper > .center-column > .banner-image{
+    display: flex;
+    justify-content: center;
+}
+
+.navigation-wrapper > .center-column > .banner-image img{
+    width: 200px;
+    height: 100%;
+}
+
+
+/* RIGHT COLUMN */
+.navigation-wrapper > .right-column {
+    display: flex;
+    align-items: center;
+    width: 300px;
+    justify-content: right;
+}
+
+.navigation-wrapper > .right-column > .address-wrapper {
+    text-align: right;
+}
+
+.navigation-wrapper > .right-column > .address-wrapper a{
+    color: #141414;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.navigation-wrapper > .right-column > .address-icon {
+    margin-left: 15px;
+    font-size: 2em;
+}
+
+.navigation-wrapper > .right-column > .address-icon a {
+    color: #141414;
+    text-align: right;
+    transition: 0.5s;
+}
+
+.navigation-wrapper > .right-column > .address-icon a:hover {
+    font-size: 2em;
+    color: #db9a34;
+}
