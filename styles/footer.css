@@ -91,7 +91,6 @@
 .footer-section > .container > .link-wrapper {
     display: flex;
     justify-content: center;
-    height: 40px;
 }
 
 .footer-section > .container > .link-wrapper > .navlink {
@@ -148,4 +147,6 @@
     text-align: center;
     padding-top: 10px;
     font-size: 0.7em;
+    margin-top: 20px;
+    margin-bottom: 50px;
 }

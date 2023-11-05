@@ -1,0 +1,142 @@
+@media (max-width: 615px) {
+    .navigation-wrapper {
+        flex-direction: column;
+        height: 100%;
+    }
+
+    .navigation-wrapper > .left-column {
+        order: 2;
+        margin-top: 10px;
+        margin-bottom: 15px;
+    }
+
+    .navigation-wrapper > .center-column {
+        order: 1;
+        margin-top: 10px;
+        margin-bottom: 15px;
+    }
+
+    .navigation-wrapper > .right-column {
+        order: 3;
+        margin-top: 10px;
+        margin-bottom: 15px;
+    }
+
+    /* .navigation-wrapper > .left-column, .navigation-wrapper > .right-column{
+        justify-content: center;
+    } */
+
+    .link-wrapper {
+        flex-direction: column;
+        margin-bottom: 20px;
+    }
+
+    .link-wrapper > .navlink, .link-wrapper > .active {
+        margin-bottom: 20px;
+        margin-top: 10px;
+        font-size: 1.2em;
+        width: 100%;
+    }
+
+    .features-section {
+        height: 100%;
+    }
+
+    .features-section > .columns-wrapper{
+        height: 100%;
+        width: 80%;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        flex-direction: column;
+    }
+
+    .footer-section {
+        height: 100%;
+    }
+
+    .footer-section  > .container {
+        height: 100%;
+    }
+
+    .skewed-header > .wrapper > .content {
+        flex-direction: column;
+    }
+
+    .skewed-header > .wrapper > .content > .link-wrapper {
+        width: auto;
+        margin-top: 1rem;
+    }
+
+    .skewed-header {
+        height: 500px;
+    }
+
+    .skewed-header > .header-bg {
+        height: 500px;
+        background-size: cover;
+    }
+
+    .page > .wrapper {
+        width: 80%;
+    }
+
+    .page > .wrapper #gudeg{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .square {
+        grid-template-columns: 1fr !important;
+    }
+
+    .square > .image {
+        order: 1;
+    }
+
+    .square > .text2, .square > .text1 {
+        order: 2;
+    }
+
+    .text1, .text2 {
+        text-align: center !important;
+        direction: ltr !important;
+    }
+
+    .squares-wrapper {
+        padding-right: 20px;
+        padding-left: 20px;
+
+    }
+
+    .list2 {
+        direction: ltr;
+        text-align: center;
+    }
+
+    .contact-grid-wrapper {
+        grid-template-columns: 1fr;
+        width: 80%;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+    }
+
+    .form input {
+        padding: 0.6rem 0rem;
+        font-size: 1rem;
+    }
+
+    .form textarea {
+        padding: 0.6rem 0rem;
+        font-size: 1rem;
+    }
+
+    .button-submit {
+        margin-left: 0;
+    }
+
+    .form label {
+        margin: 0 !important;
+        font-size: 1rem;
+    }
+
+}
